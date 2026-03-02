@@ -1,0 +1,19 @@
+{
+    "siteTitle": "Learn Masautt",
+    "siteDescription": "A sample documentation site built with Eleventy LibDoc",
+    "author": "masautt",
+    "blogTitle": "Blog Posts",
+    "blogDescription": "Latest articles and updates",
+    "productionUrl": "https://masautt.github.io/learn-masautt",
+    "customLinks": [
+        {
+            "url": "/feed.xml",
+            "text": "Atom feed"
+        },
+        {
+            "url": "https://github.com/masautt/learn-masautt",
+            "text": "GitHub"
+        }
+    ],
+    "editThisPageRootUrl": "https://github.com/masautt/learn-masautt/blob/main"
+}
