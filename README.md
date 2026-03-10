@@ -25,6 +25,22 @@ npx @11ty/eleventy --serve
 npx @11ty/eleventy
 ```
 
+## Hostinger Node.js Deploy
+
+If your plan only supports a Node.js app, this project includes a small Express
+server that serves the built static site from `_site/`.
+
+```bash
+# Install deps (Hostinger does this automatically)
+npm install
+
+# Build the static site
+npm run build
+
+# Start the server (Hostinger should run this)
+npm start
+```
+
 ## Project Structure
 
 ```
